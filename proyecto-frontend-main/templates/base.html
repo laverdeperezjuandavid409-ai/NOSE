@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVault</title>
+  <link rel="stylesheet" href="../estilos.css">
+  <link rel="icon" type="image/png" href="../images/vanguard.ico">
+</head>
+<body class="not-auth">
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">GameVault</h1>
+      <ul class="nav-links">
+        <li><a href="#" data-seccion="Inicio" data-protected="true">Inicio</a></li>
+        <li><a href="#" data-seccion="Explorar" data-protected="true">Explorar</a></li>
+        <li><a href="#" data-seccion="Comunidad" data-protected="true">Comunidad</a></li>
+        <li><a href="#" data-seccion="Perfil" data-protected="true">Perfil</a></li>
+        <li><a href="#" data-seccion="Login">Iniciar sesión</a></li>
+        <li><a href="#" data-seccion="Register">Registrarse</a></li>
+      </ul>
+
+      <div id="user-area" style="color:#fff;margin-left:20px;">
+        <span id="user-nombre" style="color:#ff4655;margin-right:8px;"></span>
+        <a href="#" id="logout-link" style="color:#ccc;display:none;">Cerrar sesión</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GameVault. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>
